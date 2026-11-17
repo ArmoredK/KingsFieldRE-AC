@@ -5,7 +5,7 @@ Now with Armored Core PSX support (WIP)
 
 This repository is a fork of IvanDSM's KingsFieldRE to allow the KFMoDTool to open Armored Core (USA).bin FDAT.T files and edit them
 
-This was made using Google's AI Mode and I take no credit for its creation. The modification was created so I could edit levels myself as I'm a Level Designer by trade and have limited code knowledge. All credit goes to IvanDSM and the original contributors.
+This was made using Google's AI Mode and I take no credit for its creation. The modification was created so I could edit levels myself as I'm a Level Designer by trade and have limited code knowledge. All credit for the original tools and code goes to IvanDSM and contributors listed below.
 
 This is currently a WIP and purely a hobby project.
 
