@@ -1,21 +1,16 @@
-# KingsFieldRE
+# KingsFieldRE-AC
 King's Field (II) Reverse Engineering Tools and Documentation
+Now with Armored Core PSX support (WIP)
 
-This repository contains tools and documentation for reverse engineering King's Field (II).
+This repository is a fork of IvanDSM's KingsFieldRE to allow the KFMoDTool to open Armored Core (USA).bin FDAT.T files and edit them
 
-This is the fruit of the community's efforts in understanding how the game works and is here in the hopes that it might provide help to those who are interested in helping reverse engineer the game.
+This was made using Google's AI Mode and I take no credit for its creation. The modification was created so I could edit levels myself as I'm a Level Designer by trade and have limited code knowledge. All credit goes to IvanDSM and the original contributors.
 
-The tools are available in the repository, and documentation is available in the wiki. As of writing, the wiki is incomplete and it is often outdated, but it is updated whenever possible.
-
-If you need help with the tools or would like to discuss King's Field internals and reverse engineering, join [The FromSoft Modding Committee Discord Server](https://discord.gg/jUzZwWWUXd)!
-
-For King's Field IV Tools and Documentation, check out [TheStolenBattenberg's ToolsForKFIV](https://github.com/TheStolenBattenberg/ToolsForKFIV)!
+This is currently a WIP and purely a hobby project.
 
 # Tools
 
-All the tools in KingsFieldRE are written using C++17 and the Qt Framework.
-
-Automated builds for 64-bit Linux (cross-distribution AppImages based on Ubuntu 16.04) and Windows are available on the project's [Releases page](https://github.com/IvanDSM/KingsFieldRE/releases).
+This fork only modifies the KFModTool. All other tools remain the same.
 
 ## KFModTool
 Early modding/datamining tool for King's Field. Breaks often, so be careful!
@@ -29,6 +24,9 @@ Features:
 * Game Executable editing, allowing you to edit strings and shop info. (KF1U only so far)
 * Texture viewing, exporting and replacement
 * 3D model viewing (no support for animated KF1J models yet!)
+
+Updates
+* Basic map editing with 3D preview for Armored Core [SCUS-94182, SLUS-01323]
 
 KFModTool currently supports loading files from the following games:
 
